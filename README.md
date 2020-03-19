@@ -9,7 +9,7 @@ Read in data using API call
 Part 2
 Spinning up Elactic Search
 output code
-curl -o output.txt 192.168.99.100:9200/bigdata1/_search?q=state:NY&size=10
+curl -o output.txt http://<docker's ip>:9200/bigdata1/_search?q=state:NY&size=10
 
 
 Part 3
